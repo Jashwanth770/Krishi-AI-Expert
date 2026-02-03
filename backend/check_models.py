@@ -2,7 +2,7 @@ from google import genai
 import os
 
 # Use the key we found in views.py
-GEMINI_API_KEY = "AIzaSyB-9OnRrTU2hXMH3NO-o6AtUTCNSFtoCd8"
+GEMINI_API_KEY = "paste the gemini api key here"
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 print("Listing available models...")
