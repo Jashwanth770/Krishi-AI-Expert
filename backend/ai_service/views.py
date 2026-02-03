@@ -16,7 +16,7 @@ from .knowledge_base import get_scratch_response
 # Configure Gemini API
 
 # FORCE NEW KEY (Ignore env vars for testing)
-GEMINI_API_KEY = 'AIzaSyBFZ9eZFWMGfXJPwQdzYhfA7GDY9Ne4VjA'
+GEMINI_API_KEY = 'your gemini ai api key paste here'
 print(f"RiceQuality: Using API Key ending in ...{GEMINI_API_KEY[-4:]}")
 
 client = genai.Client(api_key=GEMINI_API_KEY)
