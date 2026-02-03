@@ -7,7 +7,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         # API Key from views.py (hardcoded for test)
-        GEMINI_API_KEY = "AIzaSyB-9OnRrTU2hXMH3NO-o6AtUTCNSFtoCd8"
+        GEMINI_API_KEY = "paste the gemini ai api key here"
         
         try:
             client = genai.Client(api_key=GEMINI_API_KEY)
