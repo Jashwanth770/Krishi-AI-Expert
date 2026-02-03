@@ -2,7 +2,7 @@
 import os
 from google import genai
 
-API_KEY = "AIzaSyA3q7u-6NWFuENUdTgVcKyRvFzis5RE6b4"
+API_KEY = "paste here your gemini ai api key here"
 client = genai.Client(api_key=API_KEY)
 
 print("Listing supported models (Name Only)...")
